@@ -10,5 +10,5 @@ images:
 ---
 
 # Session 0 Content 
-* [Create Lab from OVA file](https://k8sops.ir/session0/ova/)
-* [Create Lab from Scratch on Rocky Linux](https://k8sops.ir/session0/scratch/)
+* [Create Lab from OVA file](https://k8sbase.ir/session0/ova/)
+* [Create Lab from Scratch on Rocky Linux](https://k8sbase.ir/session0/scratch/)
