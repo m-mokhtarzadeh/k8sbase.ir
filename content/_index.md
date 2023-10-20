@@ -10,4 +10,4 @@ images:
 ---
 
 # k8sops Document
-* [Session 0](https://k8sops.ir/session0/)
+* [Session 0](https://k8sbase.ir/session0/)
