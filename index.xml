@@ -5,5 +5,5 @@ rm -rf /etc/yum.repos.d/* cd /etc/yum.repos.d curl -O repo.iut.ac.ir/repo/iutroc
 dnf install vim gpm dhclient nano tar bzip2 kernel-headers kernel-devel open-vm-tools Install Virutlabox extensions:
 mount /dev/sr0 /mnt cd /mnt ./VBoxLinuxAdditions.run Step 3: Disable firewall Disable firewall:</description></item><item><title>Create Lab with OVA file</title><link>https://k8sbase.ir/session0/ova/</link><pubDate>Sun, 11 Dec 2022 15:26:15 +0000</pubDate><guid>https://k8sbase.ir/session0/ova/</guid><description>Step 0: You need virtualbox installed on your system Donwload virutalbox from following link.
 Virtualbox Download Page
-Step 1: Download k8sops virtualbox ova Download ova file from following link.
+Step 1: Download k8sbase virtualbox ova Download ova file from following link.
 Click Here to Go to Start Download</description></item></channel></rss>
