@@ -14,6 +14,6 @@ images:
 Donwload virutalbox from following link.  
 [Virtualbox Download Page](https://www.virtualbox.org/wiki/Downloads)  
 
-### Step 1: Download k8sops virtualbox ova
+### Step 1: Download k8sbase virtualbox ova
 Download ova file from following link.  
 [Click Here to Go to Start Download](https://s3.ir-thr-at1.arvanstorage.ir/k8sbase/k8sbase.ova)
