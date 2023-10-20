@@ -1,8 +1,8 @@
-baseURL = "https://k8sops.ir/"
+baseURL = "https://k8sbase.ir/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Kubernetes Operations Documents"
+title = "Kubernetes Fundamental Documents"
 theme = "hugo-theme-techdoc"
 themesDir = "."
 
@@ -14,7 +14,7 @@ defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
 [params]
-    description = "This Weblog Just Created For Kubernetes Operations Challenges"
+    description = "This Weblog Just Created For Kubernetes Fundamental Challenges"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id
@@ -25,7 +25,7 @@ enableMissingTranslationPlaceholders = false
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Kubernetes Operations"
+    title = "Kubernetes Fundamental"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
