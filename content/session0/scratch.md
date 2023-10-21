@@ -108,6 +108,22 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 # make sure swap in lvm mode removed from grub
 ```
 
+Install CRI-O for Docker
+```bash
+wget https://github.com/Mirantis/cri-dockerd/releases/download/v0.3.5/cri-dockerd-0.3.5.amd64.tgz
+
+tar xvf cri-dockerd-0.3.5.amd64.tgz
+
+mv cri-dockerd/cri-dockerd /usr/local/bin/
+
+wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/systemd/cri-docker.service
+
+wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/systemd/cri-docker.socket
+
+mv cri-docker.socket cri-docker.service /etc/systemd/system/
+
+sed -i -e 's,/usr/bin/cri-dockerd,/usr/local/bin/cri-dockerd,' /etc/systemd/system/cri-docker.service
+```
 ### Step 10: Install kubernetes
 Add kubernetes repository to system repository:
 ```bash
